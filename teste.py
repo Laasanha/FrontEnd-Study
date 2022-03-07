@@ -1,1 +1,5 @@
-print("Fuck you man!")
+
+i=0
+while(i<10):
+    print("Fuck you man!")
+    i=i+1
