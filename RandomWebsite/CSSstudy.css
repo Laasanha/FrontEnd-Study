@@ -1,35 +1,60 @@
 body{
     background-color: #f2d7d0;    
 }
-h1 {
-    text-align: center;
+div.firstBlock{
+    align-self: center;
+       
+    background-image: url("images/0100.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccc;
+    height: max-content;
+}
+h1 {height: fit-content;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1000%;
-    opacity: 0.9;
+    font-size: 640%;
+    opacity: 0.8;
+    color:white;
     
 }
 h2 {
-    text-align: center;
+    height: fit-content;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 640%;
     opacity: 0.9;
-    position: inherit;
-    top:-110px
-}
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 200%;
+    color: white;
     position: relative;
-    top: 0px;
-    right:-100px;
-    margin-right: 900px;
-    background-color: aliceblue;
-
-
+    
 }
 div.Title {
-    position: relative;
-   left: -400px;
+    display: flex;
+    flex-direction: column;
+    
+   position: relative;
+   left: 0px;
    top:130px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
 
+}
+div.rectangle{
+    position: absolute;
+    transform-origin: center;
+    
+    left: 100px;
+    background-color: aliceblue;
+    height: 250px;
+    width: 850px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+p {
+    
+    width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
 }
